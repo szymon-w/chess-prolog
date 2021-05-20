@@ -1,0 +1,8 @@
+retractall(piece_position(_,_)),
+retractall(site(__)),
+assert(site(black)),
+assert(piece_position(a1, wk)),
+assert(piece_position(a4, wp1)),
+assert(piece_position(b2, wp2)),
+assert(piece_position(b4, bk)),
+assert(piece_position(g4, br1)).
